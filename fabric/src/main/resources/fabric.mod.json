@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "coolideas",
+  "version": "${version}",
+  "name": "Cool Ideas Mod",
+  "description": "This is just some cool ideas i have that i put into this mod.",
+  "authors": [
+    "ThadDev (IWant2TryHard)"
+  ],
+  "contact": {
+    "homepage": "https://thaddev.com/",
+    "sources": "https://github.com/MyNameTsThad/CoolIdeasMod-Architectury/"
+  },
+  "license": "MIT",
+  "icon": "assets/coolideas/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.thaddev.coolideas.fabric.CoolIdeasModFabric"
+    ]
+  },
+  "mixins": [
+    "coolideas.mixins.json",
+    "coolideas-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.2",
+    "architectury": ">=6.5.77"
+  }
+}
