@@ -1,26 +1,33 @@
 {
   "schema_version": 1,
   "mixin": [
-    "examplemod.mixins.json",
-    "examplemod-common.mixins.json"
+    "coolideas.mixins.json",
+    "coolideas-common.mixins.json"
   ],
   "quilt_loader": {
     "group": "${group}",
-    "id": "examplemod",
+    "id": "coolideas",
     "version": "${version}",
-    "name": "Example Mod",
-    "description": "This is an example description! Tell everyone what your mod is about!",
-    "authors": ["Me!"],
+    "name": "Cool Ideas Mod",
+    "description": "This is just some cool ideas i have that i put into this mod.",
+    "authors": ["ThadDev (IWant2TryHard)"],
     "contact": {
-      "sources": "https://github.com/architectury/architectury-templates"
+      "homepage": "https://thaddev.com/",
+      "sources": "https://github.com/MyNameTsThad/CoolIdeasMod-Architectury/"
     },
-    "license": "Insert License Here",
-    "icon": "assets/examplemod/icon.png",
+    "license": "MIT",
+    "icon": "assets/coolideas/icon.png",
     "intermediate_mappings": "net.fabricmc:intermediary",
     "environment": "*",
     "entrypoints": {
       "init": [
-        "net.examplemod.quilt.ExampleModQuilt"
+        "com.thaddev.coolideas.CoolIdeasModQuilt"
+      ],
+      "client": [
+        "com.thaddev.coolideas.CoolIdeasModQuiltClient"
+      ],
+      "mm:early_risers": [
+        "com.thaddev.coolideas.asm.FabricASMEarlyRiser"
       ]
     },
     "depends": [

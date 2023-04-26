@@ -23,6 +23,10 @@ configurations {
     developmentQuilt.extendsFrom common
 }
 
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
 dependencies {
     modImplementation "org.quiltmc:quilt-loader:${rootProject.quilt_loader_version}"
     modApi "org.quiltmc.quilted-fabric-api:quilted-fabric-api:${rootProject.quilt_fabric_api_version}"
@@ -37,6 +41,8 @@ dependencies {
     shadowCommon(project(path: ":common", configuration: "transformProductionQuilt")) { transitive false }
     common(project(path: ":fabric-like", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":fabric-like", configuration: "transformProductionQuilt")) { transitive false }
+
+    implementation 'com.github.Chocohead:Fabric-ASM:v2.3'
 }
 
 processResources {

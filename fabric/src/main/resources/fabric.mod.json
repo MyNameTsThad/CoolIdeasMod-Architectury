@@ -16,7 +16,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.thaddev.coolideas.fabric.CoolIdeasModFabric"
+      "com.thaddev.coolideas.CoolIdeasModFabric"
+    ],
+    "client": [
+      "com.thaddev.coolideas.CoolIdeasModFabricClient"
+    ],
+    "mm:early_risers": [
+      "com.thaddev.coolideas.asm.FabricASMEarlyRiser"
     ]
   },
   "mixins": [

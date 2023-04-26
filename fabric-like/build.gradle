@@ -6,6 +6,21 @@ loom {
     accessWidenerPath = project(":common").loom.accessWidenerPath
 }
 
+repositories {
+    // Add repositories to retrieve artifacts from in here.
+    // You should only use this when depending on other mods because
+    // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
+    // See https://docs.gradle.org/current/userguide/declaring_repositories.html
+    // for more information about repositories.
+    maven {
+        url "https://maven.jamieswhiteshirt.com/libs-release"
+        content {
+            includeGroup "com.jamieswhiteshirt"
+        }
+    }
+    maven { url 'https://jitpack.io' }
+}
+
 dependencies {
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
     modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
@@ -13,4 +28,7 @@ dependencies {
     modApi "dev.architectury:architectury-fabric:${rootProject.architectury_version}"
 
     compileClasspath(project(path: ":common", configuration: "namedElements")) { transitive false }
+
+    include modImplementation("com.jamieswhiteshirt:reach-entity-attributes:2.2.0")
+    implementation 'com.github.Chocohead:Fabric-ASM:v2.3'
 }
