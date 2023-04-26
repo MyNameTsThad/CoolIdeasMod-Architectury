@@ -1,3 +1,71 @@
 {
-  "item.examplemod.example_item": "Example Item"
+  "item.coolideas.wooden_shortbow": "Wooden Shortbow",
+  "item.coolideas.iron_shortbow": "Iron Shortbow",
+  "item.coolideas.diamond_shortbow": "Diamond Shortbow",
+  "item.coolideas.raw_rubber_bottle": "Raw Rubber Bottle",
+  "item.coolideas.rubber_bottle": "Rubber Bottle",
+  "item.coolideas.rubber_band": "Rubber Band",
+  "item.coolideas.latex_band": "Latex Band",
+  "item.coolideas.carbon_fiber": "Carbon Fiber",
+  "item.coolideas.iron_rod": "Iron Rod",
+  "item.coolideas.diamond_rod": "Diamond Rod",
+  "item.coolideas.diamond_arrow_head": "Diamond Arrow Head",
+  "item.coolideas.diamond_headed_arrow": "Diamond Headed Arrow",
+  "item.coolideas.tipped_diamond_headed_arrow": "Tipped Diamond Headed Arrow",
+  "item.coolideas.spider_web": "Spider Web",
+  "item.coolideas.tweezers": "Tweezers",
+  "item.coolideas.silicon": "Silicon",
+  "item.coolideas.raw_silicon": "Raw Silicon",
+  "item.coolideas.microchip": "Microchip",
+  "item.coolideas.silicon_pcb": "Silicon PCB",
+  "item.coolideas.scythe": "Scythe",
+  "item.coolideas.soul_vial": "Soul Vial",
+  "item.coolideas.soul_bottle": "Soul Bottle",
+  "item.coolideas.soul_jar": "Soul Jar",
+  "item.coolideas.soul_gallon": "Soul Gallon",
+
+  "item.minecraft.tipped_arrow.effect.vulnerability": "Arrow of Vulnerability",
+
+  "death.attack.rubberbandhit": "%1$s slapped themselves a bit too hard",
+  "death.attack.rubberbandhit.player": "%2$s made %1$s so shaky that they accidentally slapped themselves to death",
+
+  "entity.coolideas.diamond_headed_arrow": "Diamond Headed Arrow",
+
+  "enchantment.coolideas.precision": "Precision",
+  "enchantment.coolideas.inherit": "Inherit",
+
+  "effect.coolideas.vulnerability": "Vulnerability",
+
+  "block.coolideas.silicon_ore": "Silicon Ore",
+
+  "message.coolideas.welcome": "Welcome, %1$s! Server is running Cool Ideas Mod version %2$s, For %3$s %4$s.",
+
+  "menu.coolideas.modmismatch": "Cool Ideas Mod Version Mismatch",
+  "menu.coolideas.modmismatchmessage.1": "You are running a different version of Cool Ideas Mod than the server.",
+  "menu.coolideas.modmismatchmessage.2": "Please update your mod version to match the server.",
+  "menu.coolideas.modmismatchmessage.discrepancylist": "Discrepancies:",
+  "menu.coolideas.modmismatchmessage.modloader": "Modloader:",
+  "menu.coolideas.modmismatchmessage.modversion": "Mod Version:",
+  "menu.coolideas.modmismatchmessage.client": "Client",
+  "menu.coolideas.modmismatchmessage.server": "Server",
+  "menu.coolideas.modmismatchmessage.open_curseforge": "Open mod page (Curseforge)",
+  "menu.coolideas.modmismatchmessage.open_modrinth": "Open mod page (Modrinth)",
+  "menu.coolideas.modmismatchmessage.open_github": "Open mod page (Github)",
+  "menu.coolideas.modmismatchmessage.disconnect": "Disconnect",
+  "menu.coolideas.modmismatchmessage.ignore": "Ignore and Continue",
+  "menu.coolideas.modmismatchmessage.ignore_confirm": "NOT ADVISED! CONTINUE AT YOUR OWN RISK!",
+  "menu.coolideas.modmismatchmessage.no_download": "Download not available!",
+
+  "advancements.coolideas.uhok.title": "Uh ok? You good? Sure, I guess?",
+  "advancements.coolideas.uhok.description": "You know... you took all this time to make a scythe... and instead of using it as a quality weapon, You decided you would want to farm instead? Sure, I guess? Why not?",
+
+  "key.category.coolideas.itemabilities": "Cool Ideas Mod: Item Abilities",
+  "key.coolideas.mainhand1": "Main Hand 1st ability",
+  "key.coolideas.mainhand2": "Main Hand 2nd ability",
+  "key.coolideas.offhand": "Offhand ability",
+  "key.coolideas.helmet": "Helmet ability",
+  "key.coolideas.chestplate": "Chestplate ability",
+  "key.coolideas.leggings": "Leggings ability",
+  "key.coolideas.boots": "Boots ability",
+  "key.coolideas.ultimate": "Full set Ultimate ability"
 }
